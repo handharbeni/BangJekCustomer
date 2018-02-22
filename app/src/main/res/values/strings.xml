@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">BangJeck</string>
+
+    <string name="permission_internet">Memperbolehkan internet.</string>
+    <string name="permission_storage">Memperbolehkan menyimpan cache.</string>
+    <string name="permission_location">Memperbolehkan mencari lokasi.</string>
+    <string name="permission_network">Memperbolehkan meliahat keadaan koneksi jaringan.</string>
+    <string name="permission_call">Memperbolehkan menelfon.</string>
+    <string name="permission_phoneinfo">Memperbolehkan mengetahui smartphone apa yang Anda gunakan.</string>
+
+    <string name="value_enable">Sudah</string>
+    <string name="value_disable">Belum</string>
+    <string name="penjelasan_permission">Silahkan klik ijin yang belum di konfirmasi pada tombol "Belum" (Tulisan berwarna merah) agar kami bisa mempermudah Anda menjalankan aplikasi.</string>
+
+    <string name="account">Akun</string>
+    <string name="history">History</string>
+    <string name="help">Bantuan</string>
+    <string name="label_privacy">Privacy Policy</string>
+    <string name="connection_fail">Tidak ada koneksi ke server.\nPeriksa koneksi internet Anda.</string>
+
+    <string name="user">Nomor Telfon</string>
+    <string name="password">Password</string>
+    <string name="password_baru">Password Baru</string>
+    <string name="repassword">Ulangi Password</string>
+
+    <string name="register">Daftar</string>
+    <string name="signin">Masuk</string>
+    <string name="signout">Keluar</string>
+
+    <string name="name">Nama</string>
+    <string name="phone">Nomor Telfon</string>
+    <string name="email">E-mail</string>
+    <string name="edit">Ubah</string>
+
+    <string name="nama_kurir">Nama Kurir</string>
+    <string name="lokasi_ambil">Lokasi Ambil</string>
+    <string name="lokasi_beli">Lokasi Beli</string>
+    <string name="lokasi_jemput">Lokasi Jemput</string>
+    <string name="lokasi_kirim">Lokasi Antar</string>
+    <string name="keterangan">Keterangan</string>
+    <string name="jarak">Jarak</string>
+    <string name="biaya_jarak">Biaya Jarak</string>
+    <string name="item">Item</string>
+    <string name="biaya_item">Estimasi Biaya Item</string>
+    <string name="biaya_dua_kurir">Dua Kurir</string>
+    <string name="total">Total</string>
+
+    <string name="pesan">Pesan</string>
+    <string name="cancel">Batal</string>
+    <string name="next">Lanjut</string>
+    <string name="unconfirmed">Belum Dikonfirmasi</string>
+
+    <string name="input_item">Input Item</string>
+    <string name="ojek_argo">Ojek Argo</string>
+    <string name="pesan_makanan">Pesan Makanan</string>
+    <string name="belanja">Belanja</string>
+    <string name="kurir_dan_kargo">Kurir &amp; Kargo</string>
+    <string name="food_court">Food Court</string>
+    <string name="tiket">Tiket</string>
+    <string name="cari_food_court">Cari Makanan</string>
+    <string name="cari_tiket">Cari Tiket</string>
+
+    <string name="ex_item">Isikan nama pesanan, jumlah, dan satuan. Ex: Ayam Goreng 1 Porsi</string>
+    <string name="desc_pemesanan">[Total belum termasuk biaya pembelian item]</string>
+
+    <string name="chat">Chat</string>
+    <string name="ketik_disini">Ketik disini&#8230;</string>
+
+    <string name="quickstart_message">Click the SUBSCRIBE TO NEWS button below to subscribe to the
+        news topic. Messages sent to the news topic will be received. The LOG TOKEN button logs the
+        InstanceID token to logcat.</string>
+    <string name="subscribe_to_news">Subscribe To News</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Subscribed to news topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <string name="default_notification_channel_name" translatable="true">News</string>
+</resources>

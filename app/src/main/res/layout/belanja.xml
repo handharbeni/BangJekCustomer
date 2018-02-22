@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@color/colorPrimary"
+        android:elevation="2dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/back"
+            android:padding="16dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:src="@drawable/logobangjeck"
+                android:layout_gravity="center"
+                android:padding="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/belanja"
+                android:gravity="center"
+                android:textColor="@color/colorBackground"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/help"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/help"
+            android:padding="16dp"
+            android:layout_gravity="end"/>
+
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="16dp"
+            android:paddingEnd="8dp"
+            android:paddingTop="8dp">
+
+            <EditText
+                android:id="@+id/lokasi_ambil"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:hint="@string/lokasi_beli"/>
+
+            <ImageView
+                android:id="@+id/shownote1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/note"
+                android:padding="8dp"/>
+
+        </LinearLayout>
+        <EditText
+            android:id="@+id/keterangan_ambil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/keterangan"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:visibility="gone"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="16dp"
+            android:paddingEnd="8dp">
+
+            <EditText
+                android:id="@+id/lokasi_kirim"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:hint="@string/lokasi_kirim"/>
+
+            <ImageView
+                android:id="@+id/shownote2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/note"
+                android:padding="8dp"/>
+
+        </LinearLayout>
+        <EditText
+            android:id="@+id/keterangan_kirim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/keterangan"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:visibility="gone"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <WebView
+                android:id="@+id/browser"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:visibility="gone"/>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
+
+            <TextView
+                android:id="@+id/jarak"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="start|center"/>
+
+            <TextView
+                android:id="@+id/biaya_jarak"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="start|center"/>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/colorBackground"
+                android:text="@string/pesan"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "989009494960",
+    "firebase_url": "https://bangjeckindonesia.firebaseio.com",
+    "project_id": "bangjeckindonesia",
+    "storage_bucket": "bangjeckindonesia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989009494960:android:fc29c9ac80f17118",
+        "android_client_info": {
+          "package_name": "com.bangjeckkurir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989009494960-7qi9imh4k5jp30m1tgsoqtvcn73ibmd6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bangjeckkurir",
+            "certificate_hash": "f8bb1414bbf1354e230926e0ad9cecb28d96787a"
+          }
+        },
+        {
+          "client_id": "989009494960-llb4npu5k0q36178qed4idslcib19473.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "989009494960-9c0ca2gui9s7h8vivhbmho63g1n5vedn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOk9w8rZoPCZEaS82YlihIxdxsi0ZV4hk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989009494960-llb4npu5k0q36178qed4idslcib19473.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989009494960:android:530a58a9756e5269",
+        "android_client_info": {
+          "package_name": "com.bangjeck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989009494960-4tm2elir52jrq0pcquo6rd9lan0j7er5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bangjeck",
+            "certificate_hash": "f8bb1414bbf1354e230926e0ad9cecb28d96787a"
+          }
+        },
+        {
+          "client_id": "989009494960-llb4npu5k0q36178qed4idslcib19473.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "989009494960-9c0ca2gui9s7h8vivhbmho63g1n5vedn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOk9w8rZoPCZEaS82YlihIxdxsi0ZV4hk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989009494960-llb4npu5k0q36178qed4idslcib19473.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

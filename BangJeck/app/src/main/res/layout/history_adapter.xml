@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@drawable/shadow"
+    android:layout_marginBottom="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:id="@+id/icon_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginLeft="16dp">
+
+            <TextView
+                android:id="@+id/kode_transaksi"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/app_name"
+                android:gravity="start|center"/>
+
+            <TextView
+                android:id="@+id/status_transaksi"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/app_name"
+                android:gravity="start|center"/>
+
+            <TextView
+                android:id="@+id/jenis_transaksi"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/app_name"
+                android:gravity="start|center"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_kurir"/>
+
+        <TextView
+            android:id="@+id/nama_kurir"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:paddingStart="16dp"
+            android:paddingEnd="0dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lokasi_ambil"/>
+
+        <TextView
+            android:id="@+id/lokasi_ambil"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:paddingStart="16dp"
+            android:paddingEnd="0dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        android:paddingBottom="8dp"
+        android:background="@drawable/border_bottom">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/keterangan"/>
+
+        <TextView
+            android:id="@+id/keterangan_ambil"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:paddingStart="16dp"
+            android:paddingEnd="0dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lokasi_kirim"/>
+
+        <TextView
+            android:id="@+id/lokasi_kirim"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:paddingStart="16dp"
+            android:paddingEnd="0dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        android:paddingBottom="8dp"
+        android:background="@drawable/border_bottom">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/keterangan"/>
+
+        <TextView
+            android:id="@+id/keterangan_kirim"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:paddingStart="16dp"
+            android:paddingEnd="0dp"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/chat"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:text="@string/chat"
+        android:textColor="@color/colorBackground"
+        android:layout_marginBottom="8dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/jarak"/>
+
+        <TextView
+            android:id="@+id/jarak"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:paddingStart="16dp"
+            android:paddingEnd="0dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        android:paddingBottom="8dp"
+        android:background="@drawable/border_bottom">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/item"/>
+
+        <TextView
+            android:id="@+id/item"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:paddingStart="16dp"
+            android:paddingEnd="0dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/biaya_jarak"/>
+
+        <TextView
+            android:id="@+id/biaya_jarak"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:paddingStart="16dp"
+            android:paddingEnd="0dp"
+            android:gravity="end"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/biaya_item"/>
+
+        <TextView
+            android:id="@+id/biaya_item"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:paddingStart="16dp"
+            android:paddingEnd="0dp"
+            android:gravity="end"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        android:paddingBottom="8dp"
+        android:background="@drawable/border_bottom">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/biaya_dua_kurir"/>
+
+        <TextView
+            android:id="@+id/biaya_dua_kurir"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:paddingStart="16dp"
+            android:paddingEnd="0dp"
+            android:gravity="end"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/total"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:paddingStart="16dp"
+            android:paddingEnd="0dp"
+            android:gravity="end"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/app_name"
+        android:gravity="end"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/desc_pemesanan"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/batal"
+        android:layout_width="70dp"
+        android:layout_height="34dp"
+        android:background="@color/colorDisable"
+        android:textColor="@color/colorBackground"
+        android:text="@string/cancel"
+        android:layout_marginTop="16dp"
+        android:visibility="gone"/>
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bangjeck">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logobangjeck"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logobangjeck"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeNo">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".page.PermissionPage">
+        </activity>
+        <activity android:name=".page.MainMenu">
+        </activity>
+        <activity android:name=".page.BangJeckBrowser">
+        </activity>
+        <activity android:name=".page.SignIn">
+        </activity>
+        <activity android:name=".page.Profile">
+        </activity>
+        <activity android:name=".page.Register">
+        </activity>
+        <activity android:name=".page.History">
+        </activity>
+        <activity android:name=".page.Argo" android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity android:name=".page.PesanMakanan" android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity android:name=".page.Belanja" android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity android:name=".page.KurirDanKargo" android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity android:name=".page.FoodCourt" android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity android:name=".page.FoodCourtList" android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity android:name=".page.MerchantList" android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity android:name=".page.Tiket" android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity android:name=".page.TiketPoster" android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity android:name=".page.TiketList" android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity android:name=".page.InputItem" android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity android:name=".page.Pemesanan">
+        </activity>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/logobangjeck" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <!-- [END fcm_default_icon] -->
+        <!-- [START fcm_default_channel] -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id"/>
+        <!-- [END fcm_default_channel] -->
+        <activity
+            android:name=".page.Chat"
+            android:label="@string/app_name">
+
+        </activity>
+
+        <!-- [START firebase_service] -->
+        <service
+            android:name=".service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <!-- [END firebase_service] -->
+        <!-- [START firebase_iid_service] -->
+        <service
+            android:name=".service.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <!-- [END firebase_iid_service] -->
+        <service android:name=".service.MyJobService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE"/>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

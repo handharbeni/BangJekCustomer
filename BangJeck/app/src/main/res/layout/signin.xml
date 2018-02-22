@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@color/colorPrimary"
+        android:elevation="2dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/back"
+            android:padding="16dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:src="@drawable/logobangjeck"
+                android:layout_gravity="center"
+                android:padding="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/app_name"
+                android:gravity="center"
+                android:textColor="@color/colorBackground"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/help"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/help"
+            android:padding="16dp"
+            android:layout_gravity="end"/>
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="52dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/user" />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/shadow"
+                android:inputType="phone"
+                android:hint="@string/user"
+                android:layout_marginBottom="16dp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/password"/>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/shadow"
+                android:inputType="textPassword"
+                android:hint="@string/password"
+                android:padding="5dp"
+                android:layout_marginBottom="16dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/register"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/register"
+                    android:background="@color/colorPrimary2"
+                    android:textColor="@color/colorBackground"
+                    android:layout_marginRight="8dp"/>
+
+                <Button
+                    android:id="@+id/signin"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/signin"
+                    android:background="@color/colorPrimary"
+                    android:textColor="@color/colorBackground"
+                    android:layout_marginLeft="8dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout
+        android:id="@+id/loadpage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorLoadPage"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"/>
+
+    </FrameLayout>
+</FrameLayout>
