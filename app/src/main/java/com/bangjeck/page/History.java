@@ -143,6 +143,7 @@ public class History extends BangJeckSetting{
                 loadpage.setVisibility(View.GONE);
             }else{
                 Toast.makeText(context,"0 result.",Toast.LENGTH_LONG).show();
+                loadpage.setVisibility(View.GONE);
             }
         }
         String request(){

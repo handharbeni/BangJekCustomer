@@ -64,7 +64,8 @@
             android:paddingEnd="8dp"
             android:paddingTop="8dp">
 
-            <EditText
+            <fragment
+                android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
                 android:id="@+id/lokasi_ambil"
                 android:layout_width="0dp"
                 android:layout_height="40dp"
@@ -94,7 +95,8 @@
             android:paddingStart="16dp"
             android:paddingEnd="8dp">
 
-            <EditText
+            <fragment
+                android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
                 android:id="@+id/lokasi_kirim"
                 android:layout_width="0dp"
                 android:layout_height="40dp"

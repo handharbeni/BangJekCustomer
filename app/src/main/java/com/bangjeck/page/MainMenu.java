@@ -97,7 +97,7 @@ public class MainMenu extends BangJeckSetting {
             @Override
             public void run() {
                 if(show_history){
-                    show_history    = false;
+                    show_history = false;
                     goToHistory();
                 }
                 u++;
@@ -505,7 +505,7 @@ public class MainMenu extends BangJeckSetting {
     void showAlert(final int still){
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Warning");
-        builder.setMessage("Anda masin memiliki transaksi yang belum selesai.");
+        builder.setMessage("Anda masih memiliki transaksi yang belum selesai.");
         builder.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int j) {

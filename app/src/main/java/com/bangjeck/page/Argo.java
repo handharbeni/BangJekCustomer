@@ -28,6 +28,10 @@ import android.widget.Toast;
 import com.bangjeck.R;
 import com.bangjeck.library.GPSTracker;
 import com.bangjeck.setting.BangJeckSetting;
+import com.google.android.gms.common.api.Status;
+import com.google.android.gms.location.places.Place;
+import com.google.android.gms.location.places.ui.PlaceAutocompleteFragment;
+import com.google.android.gms.location.places.ui.PlaceSelectionListener;
 
 import java.nio.charset.StandardCharsets;
 
@@ -51,11 +55,14 @@ public class Argo extends BangJeckSetting {
     int biaya_fix   = 0;
     int jarak_fix   = 0;
 
+    String sAmbil = "N/A";
+    String sKirim = "N/A";
+
     Button submit;
     EditText keterangan_ambil;
     EditText keterangan_kirim;
-    EditText lokasi_ambil;
-    EditText lokasi_kirim;
+    PlaceAutocompleteFragment lokasi_ambil;
+    PlaceAutocompleteFragment  lokasi_kirim;
     ImageView back;
     ImageView help;
     ImageView shownote1;
@@ -72,19 +79,48 @@ public class Argo extends BangJeckSetting {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.argo);
 
-        submit              = (Button) findViewById(R.id.submit);
-        biaya_jarak         = (TextView) findViewById(R.id.biaya_jarak);
-        jarak               = (TextView) findViewById(R.id.jarak);
-        lokasi_ambil        = (EditText) findViewById(R.id.lokasi_ambil);
-        lokasi_kirim        = (EditText) findViewById(R.id.lokasi_kirim);
-        keterangan_ambil    = (EditText) findViewById(R.id.keterangan_ambil);
-        keterangan_kirim    = (EditText) findViewById(R.id.keterangan_kirim);
-        progressBar         = (ProgressBar)findViewById(R.id.progress);
-        shownote1           = (ImageView) findViewById(R.id.shownote1);
-        shownote2           = (ImageView) findViewById(R.id.shownote2);
-        back                = (ImageView) findViewById(R.id.back);
-        help                = (ImageView) findViewById(R.id.help);
+        submit              = findViewById(R.id.submit);
+        biaya_jarak         = findViewById(R.id.biaya_jarak);
+        jarak               = findViewById(R.id.jarak);
+        lokasi_ambil        = (PlaceAutocompleteFragment) getFragmentManager().findFragmentById(R.id.lokasi_ambil);
+        lokasi_kirim        = (PlaceAutocompleteFragment) getFragmentManager().findFragmentById(R.id.lokasi_kirim);
+        keterangan_ambil    = findViewById(R.id.keterangan_ambil);
+        keterangan_kirim    = findViewById(R.id.keterangan_kirim);
+        progressBar         = findViewById(R.id.progress);
+        shownote1           = findViewById(R.id.shownote1);
+        shownote2           = findViewById(R.id.shownote2);
+        back                = findViewById(R.id.back);
+        help                = findViewById(R.id.help);
         progressBar.setVisibility(View.VISIBLE);
+
+        lokasi_ambil.setOnPlaceSelectedListener(new PlaceSelectionListener() {
+            @Override
+            public void onPlaceSelected(Place place) {
+                sAmbil = place.getAddress().toString();
+                if (!sKirim.equalsIgnoreCase("N/A")){
+                    cariLokasi();
+                }
+            }
+
+            @Override
+            public void onError(Status status) {
+
+            }
+        });
+        lokasi_kirim.setOnPlaceSelectedListener(new PlaceSelectionListener() {
+            @Override
+            public void onPlaceSelected(Place place) {
+                sKirim = place.getAddress().toString();
+                if (!sAmbil.equalsIgnoreCase("N/A")){
+                    cariLokasi();
+                }
+            }
+
+            @Override
+            public void onError(Status status) {
+
+            }
+        });
 
         String def = getDefault();
         getBrowser(def,def);
@@ -206,15 +242,16 @@ public class Argo extends BangJeckSetting {
         browser.loadUrl(url);
     }
     void getWatcher(){
-        lokasi_ambil.addTextChangedListener(tw1);
-        lokasi_kirim.addTextChangedListener(tw1);
+
+//        lokasi_ambil.addTextChangedListener(tw1);
+//        lokasi_kirim.addTextChangedListener(tw1);
     }
     void goToDetailPesan(){
         Intent i = new Intent(getApplication().getApplicationContext(),Pemesanan.class);
         i.putExtra("jenis","Ojek Argo");
-        i.putExtra("lokasi_ambil",lokasi_ambil.getText().toString());
+        i.putExtra("lokasi_ambil",sAmbil);
         i.putExtra("keterangan_ambil",keterangan_ambil.getText().toString());
-        i.putExtra("lokasi_kirim",lokasi_kirim.getText().toString());
+        i.putExtra("lokasi_kirim",sKirim);
         i.putExtra("keterangan_kirim",keterangan_kirim.getText().toString());
         i.putExtra("jarak",Integer.toString(jarak_fix));
         i.putExtra("biaya_jarak",Integer.toString(biaya_fix));
@@ -272,8 +309,8 @@ public class Argo extends BangJeckSetting {
     };
     void cariLokasi(){
         if(!typing&&!loading){
-            String ambil    = lokasi_ambil.getText().toString();
-            String kirim    = lokasi_kirim.getText().toString();
+            String ambil    = sAmbil;
+            String kirim    = sKirim;
             if(ambil.length()>3&&kirim.length()>3) {
                 loading = true;
                 progressBar.setVisibility(View.VISIBLE);
@@ -345,8 +382,11 @@ public class Argo extends BangJeckSetting {
                         .add("password", pass)
                         .build();
 
-                awal    = encode(lokasi_ambil.getText().toString());
-                akhir   = encode(lokasi_kirim.getText().toString());
+//                awal    = encode(lokasi_ambil.getText().toString());
+//                akhir   = encode(lokasi_kirim.getText().toString());
+
+                awal = encode(sAmbil);
+                akhir = encode(sKirim);
 
                 awal    = awal.replace("+","-");
                 awal    = awal.replace("/","_");

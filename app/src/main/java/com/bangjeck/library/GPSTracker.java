@@ -203,17 +203,17 @@ public class GPSTracker extends Service implements LocationListener {
 
 	@Override
 	public void onProviderDisabled(String provider) {
-		Toast.makeText(this, "Provide Disabled", Toast.LENGTH_SHORT).show();
+//		Toast.makeText(this, "Provide Disabled", Toast.LENGTH_SHORT).show();
 	}
 
 	@Override
 	public void onProviderEnabled(String provider) {
-		Toast.makeText(this, "Provide Enabled", Toast.LENGTH_SHORT).show();
+//		Toast.makeText(this, "Provide Enabled", Toast.LENGTH_SHORT).show();
 	}
 
 	@Override
 	public void onStatusChanged(String provider, int status, Bundle extras) {
-		Toast.makeText(this, "Status Change", Toast.LENGTH_SHORT).show();
+//		Toast.makeText(this, "Status Change", Toast.LENGTH_SHORT).show();
 	}
 
 	@Override

@@ -37,14 +37,14 @@ public class Register extends BangJeckSetting {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.profile);
 
-        edit        = (Button)findViewById(R.id.edit);
-        signout     = (Button)findViewById(R.id.signout);
-        name        = (EditText)findViewById(R.id.name);
-        phone       = (EditText)findViewById(R.id.phone);
-        email       = (EditText)findViewById(R.id.email);
-        password    = (EditText)findViewById(R.id.password);
-        repassword  = (EditText)findViewById(R.id.repassword);
-        loadpage    = (FrameLayout)findViewById(R.id.loadpage);
+        edit        = findViewById(R.id.edit);
+        signout     = findViewById(R.id.signout);
+        name        = findViewById(R.id.name);
+        phone       = findViewById(R.id.phone);
+        email       = findViewById(R.id.email);
+        password    = findViewById(R.id.password);
+        repassword  = findViewById(R.id.repassword);
+        loadpage    = findViewById(R.id.loadpage);
 
         edit.setText("Daftar");
 

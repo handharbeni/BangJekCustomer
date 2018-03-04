@@ -2,283 +2,324 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/685edf0693126d0d4570f0157e54cc06382a9bb8/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/classes_019e9caaf65575a875aff18623a1e43a22b7d178.jar" />
-    </item>
-    <item
         is-multidex="true"
-        jar="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="bc30e6bf6c6168c5ff551f29ff4468897891ef23">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_843c1d0a95335febf81a50eaeadaa7bd1d5fd4b8/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/959a6644b960ac74800bef4071bc36d2488c7e06/output/jars/classes.jar"
+        jar="C:\Users\Beni\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\7c6db13678608cb86751d2db45b1ba7d\jars\classes.jar"
         jumboMode="false"
+        min-sdk-version="21"
         optimize="true"
-        revision="26.0.1"
-        sha1="9b8544d0c4d3a508ffc7da674ac79d5dc5d79395">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/classes_ae87bc4cd58106dfe4ee0e3592997d3a5b24cf6e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/2fe1c5feca00e7fa21da4802548a6051426623c7/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/classes_3ff553dfdb5dc580e1ea57fe2dbaba81afb53999.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/8bcce830fc1d336f547e260a7bfdaf30890489df/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/classes_6fa5ed7ca322702fb6579e34e9d596d7996cdd4a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/0ec9290344056f3a45e5bb6b22e67b1069151ace/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="b12cd9c87c3dfb012a911b6e38d2444ed0a65e1f">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/classes_cb0f5b21a950abe319ed1c8f4dd9c7bf9a99b4e9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/95f3e5e44bfaeb8bd2158adb8d15161ab557f7f4/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/classes_73bbe292a0ed8e65b24db3b6bbcc65821050a400.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/6abeea4beb9380859c2c395ea0b514c226672c27/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="58b12bdb21a84f22e0dc3b047aeceb0a546b1b44">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/classes_cb95e2ae39c7463c10d23958cb27caddb56ea3a5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/768d163626e662871fa0ebc79f9de32c09a673cc/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="729a6a1975c19d7461378172c7932f5c57f1c3fe">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/classes_5fb01519e36456cfa7fb4cfa184689147da13aad.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/bf13ae88870d125eda8f74e6a50316a51d9bb937/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/classes_d1b5ab543bfce2b9a18642007ee02acc27ce6136.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/4a5e4ef630bdf211b62e181bf614682e10a7ac2a/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="a37fc31c5ceeaa4532a37358add1b189d8db4af1">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/classes_b8cb37db74cab9475423cbbfbce59611f7fbbd3a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/common-1.0.0_93fa78f27393294126ac1a87b7cef32adcf4140b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/534e8d168a298fb290328df973d722623670285d/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="da443aff9cd3c2cd75b957e0547e1ca2c4f30308">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/classes_1d282f67d9d1a2c46212923cfc67917c624b93ea.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/60d03793d2a73ea9b2c5d6361dbffce27fb9e409/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
+        revision="26.0.2"
         sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/classes_5ed7dc61a51b2047034edabe7922f413eeba4817.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/cd6661463bb045d24a9c1f86e6dfe8447733e32b/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/classes_34780534f586f7cbcf22b92808266ed0cc553a10.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.9.1/84b4b7d1c4a238e7899972b7446c250691e65f1f/okhttp-3.9.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="84b4b7d1c4a238e7899972b7446c250691e65f1f">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/okhttp-3.9.1_f8e61cf00e35659781eb8b84e321fe2fa07974c0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_76f81077aea9bd1699aabfb9818dc8fa3bde44df.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/eb1a11ce7d73912adec85b4af17f521be86d80de/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/classes_24df7f615d8cdb0b0fdb98e0d7e7c81a4a84ca22.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/okio-1.13.0_e7ea4e486c0a517743326a43c02b22b521807cd1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/common-1.0.0_9acd00f8684b999f23bc1219658cc93a0b271f3d.jar" />
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\25\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/root/.android/build-cache/43afbbad3ef8cf6f1af744dfb422df625941cb72/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4f356242ad79f3c9cbee35c56756731ae591efc6/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
+        jar="C:\Users\Beni\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\ff538e6da9759ec11958db17395aa8d3\jars\classes.jar"
         jumboMode="false"
+        min-sdk-version="21"
         optimize="true"
-        revision="26.0.1"
-        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/support-annotations-26.1.0_c2a404c42de000da3f3c0fe0f579380db66e3efd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/881820715a3620113c5ed2933a560d05d4ac6bdd/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/classes_21fd3cf2a2f186b31518232c21f497ecfe841418.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/988aa96b0210abe1e6ea383fe290c7276af2f75f/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="1cde19cbf9be88547ab4b7f03668eac5d91bd611">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/classes_88fc39184e74698f54b93955c82ecba97393899c.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_fe6e961570de22ad9f4f398d5e09bf4d6e5dd25b/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/08105b95deda5b36a1455809de0bd99192ebabd7/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="869a1d15fa9d8e8aa36587b042f553c1baea46bc">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/classes_c832a0361931262bcf18d36ec166ce19ca598a69.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/a21055000a10744c11d1c25628f8056a721e57de/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="d6399340139f67ce4faba06e97f256ef0d6817c0">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/classes_98c69bdba45ad30381c4cd0a49859b8268b01706.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/bbe705577d72329a1339dac1b7bd9319b0f82af4/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="e9b8fd995f9c6c2caeb49827f0b52e0e8cc621e0">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/classes_68550363a7ff5dcf1281ba8023155adacea4fa49.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/6a5acfe408ebf1d0d4d1c6d574fc3b032cb4f3b1/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="508f50705b4fde51a16259f29c854201a3044516">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/classes_4c98c3977a7188e076151f78b5c02ef69240f0ed.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/3269979196860a42ea6ef8379f04bc40a1face6d/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
+        revision="26.0.2"
         sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/classes_e2fe2f49ba780b800e9170b29bcfad73ce25b662.jar" />
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\5\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/b47f9fb13ed8358a55bdf911c32b7c4bc68522b2/output/jars/classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\9a4e6d9553a00e251b9be2c87cde811a\jars\classes.jar"
         jumboMode="false"
+        min-sdk-version="21"
         optimize="true"
-        revision="26.0.1"
+        revision="26.0.2"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\24\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\6dcbcf682e344aafc465557366b7481e\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="42c9659c973e311ffdb645ed057e5053e0ab5c78">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\14\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\0903d2db3e5868440793bb5f0fb18f6f\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e6aeff19a2ce1eb896557be73cb9ceb56f8d1cf3">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\17\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\bfda81678635b7a13d013e5f622ed5bd\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="febe02d02cc81d6a29a8b68ef042502b638a5835">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\43\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\8a98d74beebf1b9c30d6b1619cee09e2\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\27\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\6560beab33b9faa8fc25b355237dfc02\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\10\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\d67079a27257bba224873a4e290fb955\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5ad3911825107d8dd4b017fdecebfd23c08048dd">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\21\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\c96c2ead98829556f6c07141756163b0\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="122de0d704f76d2bb5cb9db66e00fe90a0a41e78">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\15\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.9.1\84b4b7d1c4a238e7899972b7446c250691e65f1f\okhttp-3.9.1.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="84b4b7d1c4a238e7899972b7446c250691e65f1f">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\42\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\6e80c64e28d1324046b9efdfd8413b13\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\22\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\31\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\transforms-1\files-1.1\play-services-places-11.8.0.aar\3238ef9d025cf8880df903740b832f02\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="38ceaeb22ef95d1a0d320ecdad9be7383d6b7923">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\99e6403a61fd721690d80dc940b25402\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c44026185adf61f12630db36ac6781481f559e7c">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.6.0.aar\2c9cf7f84330dd15c1f0799abb36e990\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
         sha1="374d595ee099a19b6c1c3718cdb4c345be7a3d45">
-        <dex dex="/home/mhandharbeni/Documents/AndroidProject/BangJekCustomer/app/build/intermediates/pre-dexed/debug/classes_aeb32a5a851fbad78704be85b8e89cbbe0e33029.jar" />
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\8a5b4b4414bb90c09656995b08a339ca\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\26\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\fc3bb2835dcb1920fff54acc45637603\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d2af2ef4d987d753f2e8ee2d1480ab964d5c7273">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\20\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\d64603f0515924fecf31196a3c46ddc1\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="264ad23f9752aabecfa41115c52a25a023a08839">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\16\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\3213b02eecb090f6b5df66949cbecf96\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\11\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\2b153abd9bfaca267e894ccec90ff267\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="233d88c6f961d2a84758dfe27b7af61318190c7b">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\19\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\28\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\e2abd735f78ab75571dc75ee94651679\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\23\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\SDK\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\30\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\d2e970c59694f35c70b1a70ee994da52\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="601ebd8fa027a3dad924ffa1cb14689ced5aa436">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\18\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\99d97f0e16d81f041ffaf1a1009b7ee9\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b12cd9c87c3dfb012a911b6e38d2444ed0a65e1f">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\12\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\e1a65a913026c6555acf3588f4ce0310\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\40\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\6c589c33b3cf9896ceb83f846878fa55\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a37fc31c5ceeaa4532a37358add1b189d8db4af1">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\04ded256e11bb8ffc514f153ee0cfa13\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="58b12bdb21a84f22e0dc3b047aeceb0a546b1b44">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\13\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Beni\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\1c585399e7d6ab148e0d6418495e64fe\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="D:\Android\Project\BangJekCustomer\app\build\intermediates\transforms\preDex\release\2\classes.dex" />
     </item>
 
 </items>

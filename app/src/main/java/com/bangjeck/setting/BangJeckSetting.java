@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 
 public class BangJeckSetting extends AppCompatActivity{
     public static String base_url  = "http://31.220.53.148/bangjeck/";
+//    public static String base_url  = "http://192.168.1.2/bangjeck/";
     public static boolean show_history  = false;
     public static boolean show_notif    = false;
 
