@@ -13,6 +13,7 @@ import android.support.v7.app.AlertDialog;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Base64;
+import android.util.Log;
 import android.view.View;
 import android.webkit.SslErrorHandler;
 import android.webkit.WebChromeClient;
@@ -32,6 +33,8 @@ import com.google.android.gms.common.api.Status;
 import com.google.android.gms.location.places.Place;
 import com.google.android.gms.location.places.ui.PlaceAutocompleteFragment;
 import com.google.android.gms.location.places.ui.PlaceSelectionListener;
+
+import org.json.JSONObject;
 
 import java.nio.charset.StandardCharsets;
 
@@ -454,7 +457,8 @@ public class Argo extends BangJeckSetting {
                         .add("password", pass)
                         .build();
 
-                String url = base_url+"harga_perkm/"+jarak+"/"+Double.toString(lat)+"/"+Double.toString(lon)+".html";
+//                String url = base_url+"harga_perkm/"+jarak+"/"+Double.toString(lat)+"/"+Double.toString(lon)+".html";
+                String url = base_url+"/?fsa=get_km&jarak="+jarak.split(" ")[0];
 
                 OkHttpClient client = new OkHttpClient();
                 Request request = new Request.Builder()
@@ -463,7 +467,8 @@ public class Argo extends BangJeckSetting {
                         .build();
 
                 Response response = client.newCall(request).execute();
-                json = response.body().string();
+                JSONObject jsonObject = new JSONObject(response.body().string());
+                json = jsonObject.getString("total");
             }catch (Exception ex){
                 ex.printStackTrace();
             }
